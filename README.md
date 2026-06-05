@@ -1,4 +1,8 @@
-# M Finance
+<p align="center">
+  <img src="assets/splash.svg" alt="M Finance" width="820">
+</p>
+
+<h1 align="center">M Finance</h1>
 
 Um aplicativo de finanças pessoais que roda **inteiro na sua máquina**. Ele conecta nas suas contas e cartões através do [Pierre Open Finance](https://pierre.finance), baixa tudo para um banco de dados local e te dá um painel completo: saldos, extrato, faturas, planejamento do mês, alertas e até um assistente que responde perguntas sobre o seu dinheiro.
 
