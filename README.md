@@ -56,11 +56,11 @@ Vários temas prontos (do "terminal preto" clássico a esquemas claros e colorid
   </tr>
   <tr>
     <td width="50%"><img src="assets/shots/contas.png" alt="Contas e patrimônio"><br><sub><b>Contas</b> — patrimônio líquido consolidado por instituição</sub></td>
-    <td width="50%"><img src="assets/shots/resumo.png" alt="Resumo do período"><br><sub><b>Resumo</b> — receitas, despesas e saldos fechados por período</sub></td>
+    <td width="50%"><img src="assets/shots/planejamento.png" alt="Planejamento mensal"><br><sub><b>Planejamento</b> — previsto × realizado do mês, por categoria</sub></td>
   </tr>
   <tr>
+    <td width="50%"><img src="assets/shots/resumo.png" alt="Resumo do período"><br><sub><b>Resumo</b> — receitas, despesas e saldos fechados por período</sub></td>
     <td width="50%"><img src="assets/shots/configuracoes.png" alt="Configurações"><br><sub><b>Configurações</b> — chave da Pierre, sync, alertas, IA e temas</sub></td>
-    <td width="50%"><img src="assets/shots/splash.png" alt="Tela de abertura"><br><sub><b>Abertura</b> — o app é nativo (Windows / Linux), roda local</sub></td>
   </tr>
 </table>
 
