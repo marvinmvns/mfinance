@@ -10,6 +10,10 @@ A ideia é simples: depois da primeira sincronização, os seus dados financeiro
 
 > Este repositório serve **só para baixar o programa**. O código-fonte mora em outro lugar — aqui ficam apenas os instaladores.
 
+<p align="center">
+  <img src="assets/shots/dashboard.png" alt="Painel do M Finance" width="900">
+</p>
+
 ---
 
 ## O que dá pra fazer
@@ -43,9 +47,38 @@ Vários temas prontos (do "terminal preto" clássico a esquemas claros e colorid
 
 ---
 
+## 📸 Telas
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/shots/transacoes.png" alt="Extrato e transações"><br><sub><b>Extrato</b> — filtros por período, conta, categoria e faixa de valor</sub></td>
+    <td width="50%"><img src="assets/shots/faturas.png" alt="Faturas e cartões"><br><sub><b>Faturas</b> — faturas, compras no cartão e pagamentos, separados</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/shots/contas.png" alt="Contas e patrimônio"><br><sub><b>Contas</b> — patrimônio líquido consolidado por instituição</sub></td>
+    <td width="50%"><img src="assets/shots/resumo.png" alt="Resumo do período"><br><sub><b>Resumo</b> — receitas, despesas e saldos fechados por período</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/shots/configuracoes.png" alt="Configurações"><br><sub><b>Configurações</b> — chave da Pierre, sync, alertas, IA e temas</sub></td>
+    <td width="50%"><img src="assets/shots/splash.png" alt="Tela de abertura"><br><sub><b>Abertura</b> — o app é nativo (Windows / Linux), roda local</sub></td>
+  </tr>
+</table>
+
+> As imagens acima usam **dados fictícios** de demonstração.
+
+---
+
 ## Como funciona, por baixo
 
 Tudo é **offline depois do sync**. O programa sobe um pequeno servidor local, guarda seus dados num banco SQLite na sua máquina e só fala com a internet quando **você** pede uma nova sincronização com a Pierre. Os instaladores já trazem tudo embutido — não precisa instalar Node, Docker ou qualquer dependência. É só baixar e abrir.
+
+---
+
+## Sobre a Pierre (Open Finance)
+
+O M Finance não fala direto com os bancos — quem faz a ponte de **Open Finance** é a [Pierre](https://pierre.finance). Para usar o app você gera uma **chave de API** gratuita em <https://pierre.finance/api-key> e cola no assistente de configuração.
+
+A Pierre tem um **plano gratuito para uso pessoal** (uma conta), que é o suficiente para rodar o M Finance no dia a dia. Limites e planos pagos (mais conexões, atualizações mais frequentes, etc.) ficam por conta da Pierre — confira os detalhes atuais em <https://pierre.finance>. O M Finance em si é gratuito e não cobra nada.
 
 ---
 
